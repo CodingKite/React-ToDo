@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+div.wall {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+div.content {
+  width: 35%;
+  height: 90vh;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.heading {
+  border: 3px solid white;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  background-image: linear-gradient(
+    to left,
+    #c96da2,
+    #b872ad,
+    #a577b3,
+    #917cb6,
+    #7f7fb5,
+    #768abd,
+    #6e94c2,
+    #6a9ec5,
+    #6db3d2,
+    #76c7dc,
+    #85dbe4,
+    #9beee9
+  );
+}
+
+div.heading h2 {
+  /* border: 3px solid red; */
+  line-height: 50px;
+  font-size: 30px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+div.input-div {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 0%;
+}
+
+div.input-div input {
+  width: 70%;
+  height: 70%;
+  outline: none;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 17px;
+  /* margin: 0px 5%; */
+}
+
+div.input-div button {
+  height: 40px;
+  width: 9%;
+  margin: 0px 5%;
+  border-radius: 100%;
+  color: wheat;
+  background-color: rgb(56, 54, 54);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+div.input-div button:hover {
+  background-color: white;
+  color: black;
+}
+
+div.input-div button:active {
+  background-color: blue;
+  color: white;
+}
+
+div.output-div {
+  border: 3px solid white;
+  width: 100%;
+  height: 100%;
+  padding: 7px 20px;
+  margin: 0%;
+  background-image: linear-gradient(
+    to left,
+    #c96da2,
+    #b872ad,
+    #a577b3,
+    #917cb6,
+    #7f7fb5,
+    #768abd,
+    #6e94c2,
+    #6a9ec5,
+    #6db3d2,
+    #76c7dc,
+    #85dbe4,
+    #9beee9
+  );
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow-x: hidden;
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: rgb(141, 29, 29) rgb(168, 132, 168); /* scroll thumb and track */
+}
